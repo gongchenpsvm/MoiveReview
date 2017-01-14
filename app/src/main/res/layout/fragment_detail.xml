@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itp341.chen.gong.a9chengong.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/imageViewMovieGenre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="More Movie Title"
+        android:id="@+id/textViewMoreMovieTitle"
+        android:layout_below="@id/imageViewMovieGenre"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="More Movie Description"
+        android:id="@+id/textViewMoreMovieDescription"
+        android:layout_below="@+id/textViewMoreMovieTitle"
+        android:layout_alignStart="@+id/textViewMoreMovieTitle" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/listViewMoreMovieComments"
+        android:layout_below="@+id/textViewMoreMovieDescription"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMoreMovieAddComment"
+        android:layout_below="@+id/listViewMoreMovieComments"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD COMMENT"
+        android:id="@+id/buttonAddComment"
+        android:layout_below="@+id/editTextMoreMovieAddComment"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

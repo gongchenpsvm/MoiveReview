@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A9.Chen.Gong</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="addTitle">Movie Title</string>
+
+    <string name="addDescription">Movie Description</string>
+
+    <string name="addGenre">Movie Genre</string>
+
+    <string-array name="genres">
+        <item>Horror</item>
+        <item>Action</item>
+        <item>Drama</item>
+        <item>Comedy</item>
+        <item>Sci-Fi</item>
+    </string-array>
+</resources>
